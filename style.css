@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/* Estilo do corpo e textos */
+body {
+    background-color: #333333;
+}
+#main {
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #fff;
+    max-width: 960px;
+}
+#imgLogo {
+    margin-top: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+h1#h1-titulo {
+    font-weight: 900;
+    font-family: 'Souce Sans Pro', sans-serif;
+    margin-top: 50px;
+    margin-top: 0px;
+    color: #fcda19;
+}
+h2 {
+    font-family: 'Souce Sans Pro', sans-serif;
+    color: #1b3a60;
+}
+p {
+    font-family: 'Souce Sans Pro', sans-serif;
+    color: #1b3a60;
+}
+div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 200px 10px 200px;
+}
+#btnenviar {
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    border: 1px solid #1b3a60;
+    display: inline-block;
+    font-size: 16px;
+    color: #1b3a60;
+    background-color: #fcda19;
+    -webkit-transition-duration: .8s;
+    transition-duration: .5s;
+}
+#btnenviar:hover {
+    background-color: #1b3a60;
+    color: #fcda19;
+    border: 1px solid #fcda19;
+
+}
+
+/* Estilo dos inputs e textos de input */
+input {
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #1b3a60;
+    border-radius: 3px;
+}
+input:focus {
+    background-color: #e3efff;
+}
+input[type="text"] {
+    font-family: 'Souce Sans Pro', sans-serif;
+    color: #1b3a60;
+}
+label {
+    font-family: 'Souce Sans Pro', sans-serif;
+    color: #1b3a60;
+}
